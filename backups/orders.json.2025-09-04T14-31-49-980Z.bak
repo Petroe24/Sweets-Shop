@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1756926774630",
+    "name": "Kostya",
+    "item": {
+      "id": "1756197642829",
+      "title": "Шипучка",
+      "price": 2
+    },
+    "quantity": 58,
+    "total": 116,
+    "status": "pending",
+    "createdAt": "2025-09-03T19:12:54.630Z"
+  },
+  {
+    "id": "1756926125341",
+    "name": "Kostya",
+    "item": {
+      "id": "1756197642829",
+      "title": "Шипучка",
+      "price": 2
+    },
+    "quantity": 58,
+    "total": 116,
+    "status": "cancelled",
+    "createdAt": "2025-09-03T19:02:05.341Z",
+    "cancellationReason": "К "
+  },
+  {
+    "id": "1756907577687",
+    "name": "Kostya",
+    "item": {
+      "id": "1756197642829",
+      "title": "Шипучка",
+      "price": 2
+    },
+    "quantity": 25,
+    "total": 50,
+    "status": "pending",
+    "createdAt": "2025-09-03T13:52:57.687Z"
+  },
+  {
+    "id": "1756756570709",
+    "name": "ДЕНИС",
+    "item": {
+      "id": "1756197642829",
+      "title": "Шипучка",
+      "price": 2
+    },
+    "quantity": 10,
+    "total": 20,
+    "status": "approved",
+    "createdAt": "2025-09-01T19:56:10.709Z"
+  }
+]

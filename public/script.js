@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (action === 'order'){ const card = btn.closest('.product-card'); const id = card && card.dataset.productId; const item = items.find(x=>x.id===id); if (!item){ showToast('Товар не знайдено','error'); return; } openOrderModal(item); }
   });
 
-  secretBtn.addEventListener('click', ()=>{ const p=prompt('Enter admin password:'); if (p==='236790'){ localStorage.setItem('isAdmin','1'); alert('Admin enabled'); window.location.href='/admin.html'; } else alert('Wrong password'); });
+  secretBtn.addEventListener('click', ()=>{ const p=prompt('Enter password:'); if (p==='892365'){ localStorage.setItem('isAdmin','1'); alert('Admin enabled'); window.location.href='/admin.html'; } else alert('Wrong password'); });
 
   function openOrderModal(item){
     let modal = document.getElementById('orderModal');

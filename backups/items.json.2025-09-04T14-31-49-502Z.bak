@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1756197642829",
+    "title": "Шипучка",
+    "price": 2,
+    "description": "",
+    "stock": 0,
+    "img": "images/Shipuchka.png",
+    "active": true
+  },
+  {
+    "id": "1756915637589",
+    "title": "Шокер",
+    "price": 8,
+    "description": "",
+    "stock": 3,
+    "img": "images/shocker.png",
+    "active": true
+  }
+]

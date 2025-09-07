@@ -21,9 +21,9 @@ if (!fs.existsSync(BACKUP_DIR)) fs.mkdirSync(BACKUP_DIR, { recursive: true });
 // -----------------------------
 // !!! HARDCODED JSONBIN CREDENTIALS !!!
 // Replace with environment variables later for security
-const JSONBIN_MASTER_KEY = '$2a$10$RgQMxiMWDn4XRQ70aEs7NuP/rw2z1Ay1qEwR.xrXwTsIIISGQVTVm';
-const JSONBIN_ITEMS_BIN_ID = '68aca83a43b1c97be929d6c3';
-const JSONBIN_ORDERS_BIN_ID = '68aca858ae596e708fd58f93';
+const JSONBIN_MASTER_KEY = '$2a$10$LjnU4Wa3UUbOSSy53F2maO1myuTvQCBfxb5DBXTd/R1iV47H0BbHu';
+const JSONBIN_ITEMS_BIN_ID = '68bafe5bae596e708fe3adcf';
+const JSONBIN_ORDERS_BIN_ID = '68bafdfe43b1c97be937f30e';
 // -----------------------------
 
 const JSONBIN_BASE = 'https://api.jsonbin.io/v3/b';
